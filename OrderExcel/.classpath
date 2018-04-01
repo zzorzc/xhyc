@@ -7,6 +7,13 @@
 	<classpathentry exported="true" kind="lib" path="D:/Study/workspace/OrderExcel/WebContent/WEB-INF/lib/poi-ooxml-schemas-3.17.jar"/>
 	<classpathentry exported="true" kind="lib" path="D:/Study/workspace/OrderExcel/WebContent/WEB-INF/lib/poi-scratchpad-3.17.jar"/>
 	<classpathentry exported="true" kind="lib" path="D:/Study/workspace/OrderExcel/WebContent/WEB-INF/lib/mysql-connector-java-5.1.46-bin.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/Study/workspace/OrderExcel/WebContent/WEB-INF/lib/commons-jexl-2.1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/Study/workspace/OrderExcel/WebContent/WEB-INF/lib/commons-beanutils-1.9.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/Study/workspace/OrderExcel/WebContent/WEB-INF/lib/commons-lang-2.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/Study/workspace/OrderExcel/WebContent/WEB-INF/lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/Study/workspace/OrderExcel/WebContent/WEB-INF/lib/commons-collections-3.2.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/Study/workspace/OrderExcel/WebContent/WEB-INF/lib/ezmorph-1.0.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/Study/workspace/OrderExcel/WebContent/WEB-INF/lib/json-lib-2.4-jdk15.jar"/>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre1.8.0_151">
 		<attributes>

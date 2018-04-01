@@ -6,16 +6,61 @@
 	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
   <display-name></display-name>
   <servlet>
-    <description>This is the description of my J2EE component</description>
-    <display-name>This is the display name of my J2EE component</display-name>
+    <description>POI read excel</description>
+    <display-name>POI read excel component</display-name>
     <servlet-name>PoiRead</servlet-name>
     <servlet-class>com.poi.readServlet.PoiRead</servlet-class>
+  </servlet>
+
+  <servlet>
+    <description>User login</description>
+    <display-name>User login component</display-name>
+    <servlet-name>UserLogin</servlet-name>
+    <servlet-class>com.servlet.UserLogin</servlet-class>
+  </servlet>
+
+  <servlet>
+    <description>User register</description>
+    <display-name>User register component</display-name>
+    <servlet-name>UserRegister</servlet-name>
+    <servlet-class>com.servlet.UserRegister</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <description>Order query</description>
+    <display-name>Order query component</display-name>
+    <servlet-name>OrderQuery</servlet-name>
+    <servlet-class>com.servlet.OrderQuery</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <description>Order manage</description>
+    <display-name>Order manage component</display-name>
+    <servlet-name>OrderManage</servlet-name>
+    <servlet-class>com.servlet.OrderManage</servlet-class>
   </servlet>
 
   <servlet-mapping>
     <servlet-name>PoiRead</servlet-name>
     <url-pattern>/PoiRead</url-pattern>
-  </servlet-mapping>	
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserLogin</servlet-name>
+    <url-pattern>/UserLogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserRegister</servlet-name>
+    <url-pattern>/UserRegister</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OrderQuery</servlet-name>
+    <url-pattern>/OrderQuery</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OrderManage</servlet-name>
+    <url-pattern>/OrderManage</url-pattern>
+  </servlet-mapping>
+
   <welcome-file-list>
     <welcome-file>index.jsp</welcome-file>
   </welcome-file-list>

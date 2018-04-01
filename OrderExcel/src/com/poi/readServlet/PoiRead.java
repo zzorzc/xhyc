@@ -23,6 +23,10 @@ import org.apache.poi.poifs.filesystem.POIFSFileSystem;
 
 
 public class PoiRead extends HttpServlet{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -1411025901630595300L;
 	private String filePath;
 	private Connection conn;
 	private PreparedStatement ptmt;
